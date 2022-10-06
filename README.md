@@ -52,6 +52,8 @@ Here are some options you can use with the ls command:
 
 `mkdir dirname`
 
+**-p** or **–parents** create a directory between two existing folders. For example, `mkdir -p Music/2020/Songs` will make the new “2020” directory.
+
 ### 3. cd
 
 To navigate through the directories, use the **cd command.**
@@ -103,3 +105,33 @@ It consists of nine sections:
 For example, you want to access the manual for the ls command:
 
 `man ls`
+
+### 7. tr
+
+**tr** is used to translate like lower to upper case vice versa.
+
+`cat old.txt | tr a-z A-Z > new.txt`
+
+### 8. touch
+
+The **touch command** allows you to create an empty file
+
+`touch Web.html`
+
+### 9. cp
+
+Use the **cp** command to copy files or directories and their content.
+
+`cp file.txt copy.txt`
+
+### 10. mv
+
+The primary use of the **mv command** is to move and rename files and directories. Additionally, it doesn’t produce an output upon execution.
+
+Simply type **mv** followed by the filename and the destination directory. For example, you want to move filename.txt to the /home/username/Documents directory:
+
+`mv filename.txt /home/username/Documents`.
+
+You can also use the mv command to rename a file:
+
+`mv old_filename.txt new_filename.txt`
