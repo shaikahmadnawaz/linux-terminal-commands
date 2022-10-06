@@ -124,6 +124,10 @@ Use the **cp** command to copy files or directories and their content.
 
 `cp file.txt copy.txt`
 
+To copy an entire directory, pass the **-R** flag before typing the source directory, followed by the destination directory:
+
+`cp -R /home/username/Documents /home/username/Documents_backup`
+
 ### 10. mv
 
 The primary use of the **mv command** is to move and rename files and directories. Additionally, it doesn’t produce an output upon execution.
@@ -135,3 +139,23 @@ Simply type **mv** followed by the filename and the destination directory. For e
 You can also use the mv command to rename a file:
 
 `mv old_filename.txt new_filename.txt`
+
+### 11. rm
+
+The **rm** command is used to delete files within a directory. Make sure that the user performing this command has write permissions.
+
+Remember the directory’s location as this will remove the file(s) and you can’t undo it.
+
+Here’s the general syntax:
+
+`rm filename`
+
+To remove multiple files, enter the following command:
+
+`rm filename1 filename2 filename3`
+
+Here are some acceptable options you can add:
+
+- `-i` prompts system confirmation before deleting a file.
+- `-f` allows the system to remove without a confirmation.
+- `-r` deletes files and directories recursively.
