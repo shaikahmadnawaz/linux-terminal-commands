@@ -159,3 +159,19 @@ Here are some acceptable options you can add:
 - `-i` prompts system confirmation before deleting a file.
 - `-f` allows the system to remove without a confirmation.
 - `-r` deletes files and directories recursively.
+
+### 12. sudo
+
+Short for superuser do, **sudo** is one of the most popular basic Linux commands that lets you perform tasks that require administrative or root permissions.
+
+When using sudo, the system will prompt users to authenticate themselves with a password. Then, the Linux system will log a timestamp as a tracker. By default, every root user can run sudo commands for **15 minutes/session**.
+
+If you try to run sudo in the command line without authenticating yourself, the system will log the activity as a security event.
+
+`sudo`
+
+You can also add an option, such as:
+
+- **-k** or **–reset-timestamp** invalidates the timestamp file.
+- **-g** or **–group=group** runs commands as a specified group name or ID.
+- **-h** or **–host=host** runs commands on the host.
