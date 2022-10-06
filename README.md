@@ -80,3 +80,26 @@ Here are other ways to use the **cat** command:
 - `cat > filename.txt` creates a new file.
 - `cat filename1.txt filename2.txt > filename3.txt` merges **filename1.txt** and **filename2.txt** and stores the output in **filename3.txt**.
 - `tac filename.txt` displays content in reverse order.
+
+### 6. man
+
+The **man** command provides a user manual of any commands or utilities you can run in Terminal, including the name, description, and options.
+
+It consists of nine sections:
+
+- Executable programs or shell commands
+- System calls
+- Library calls
+- Games
+- Special files
+- File formats and conventions
+- System administration commands
+- Kernel routines
+- Miscellaneous
+- To display the complete manual, enter:
+
+`man [command_name]`
+
+For example, you want to access the manual for the ls command:
+
+`man ls`
