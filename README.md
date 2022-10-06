@@ -29,3 +29,9 @@ A command may contain an option or a parameter. In some cases, it can still run 
 - **Parameter** or **argument** specifies any necessary information for the command.
 
 **Keep in mind that all Linux commands are case-sensitive.**
+
+### 1. ls
+
+In the current folder if you want to list the all the items you can use **ls command**
+
+`ls`
