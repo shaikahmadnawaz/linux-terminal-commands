@@ -51,3 +51,14 @@ Here are some options you can use with the ls command:
 **mkdir command** is used to create a directory
 
 `mkdir dirname`
+
+### 3. cd
+
+To navigate through the directories, use the **cd command.**
+
+`cd dirname`
+
+Here are some shortcuts to help you navigate:
+
+- `cd ~[username]` goes to another user’s home directory.
+- `cd ..` moves one directory up (move back).
