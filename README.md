@@ -32,6 +32,16 @@ A command may contain an option or a parameter. In some cases, it can still run 
 
 ### 1. ls
 
-In the current folder if you want to list the all the items you can use **ls command**
+In the current folder, if you want to list the all the items you can use **ls command**
 
 `ls`
+
+To see other directories’ content, type ls followed by the desired path. For example, to view files in the Documents folder, enter:
+
+`ls /home/username/Documents`
+
+Here are some options you can use with the ls command:
+
+- `ls -R` lists all the files in the subdirectories.
+- `ls -a` shows hidden files in addition to the visible ones.
+- `ls -lh` shows the file sizes in easily readable formats, such as MB, GB, and TB.
