@@ -68,3 +68,15 @@ Here are some shortcuts to help you navigate:
 Use the pwd command to find the path of your current working directory. Simply entering pwd will return the full current path.
 
 `pwd`
+
+### 5. cat
+
+Concatenate, or **cat**, is one of the most frequently used Linux commands. It lists, combines, and writes file content to the standard output. To run the **cat** command, type cat followed by the file name and its extension.
+
+`cat filename.txt`
+
+Here are other ways to use the **cat** command:
+
+- `cat > filename.txt` creates a new file.
+- `cat filename1.txt filename2.txt > filename3.txt` merges **filename1.txt** and **filename2.txt** and stores the output in **filename3.txt**.
+- `tac filename.txt` displays content in reverse order.
