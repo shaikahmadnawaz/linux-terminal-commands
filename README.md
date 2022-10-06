@@ -62,3 +62,9 @@ Here are some shortcuts to help you navigate:
 
 - `cd ~[username]` goes to another user’s home directory.
 - `cd ..` moves one directory up (move back).
+
+### 4. pwd
+
+Use the pwd command to find the path of your current working directory. Simply entering pwd will return the full current path.
+
+`pwd`
