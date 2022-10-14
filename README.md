@@ -232,3 +232,23 @@ Here’s the general format:
 For example, you want to show the last ten lines of the colors.txt file:
 
 `tail -n colors.txt`
+
+### 17. diff
+
+Short for difference, the diff command compares two contents of a file line by line. After analyzing them, it will display the parts that do not match.
+
+Programmers often use the diff command to alter a program instead of rewriting the entire source code.
+
+Here’s the general format:
+
+`diff [option] file1 file2`
+
+For example, you want to compare two text files – note.txt and note_update.txt:
+
+`diff note.txt note_update.txt`
+
+Here are some acceptable options to add:
+
+- -c displays the difference between two files in a context form.
+- -u displays the output without redundant information.
+- -i makes the diff command case insensitive.
