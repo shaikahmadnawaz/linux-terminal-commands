@@ -175,3 +175,60 @@ You can also add an option, such as:
 - **-k** or **–reset-timestamp** invalidates the timestamp file.
 - **-g** or **–group=group** runs commands as a specified group name or ID.
 - **-h** or **–host=host** runs commands on the host.
+
+### 13. df
+
+df command is used to check systems space usage, the df command to report the system’s disk space usage
+
+`df file`
+
+These are some acceptable options to use:
+
+- df -m displays information on the file system usage in MBs.
+- df -k displays file system usage in KBs.
+- df -T shows the file system type in a new column.
+
+### 14. du
+
+If you want to check how much space a file or a directory takes up, use the du command. You can run this command to identify which part of the system uses the storage excessively.
+
+Remember, you must specify the directory path when using the du command. For example, to check /home/user/Documents enter:
+
+`du /home/user/Documents`
+
+Adding a flag to the du command will modify the operation, such as:
+
+- -s offers the total size of a specified folder.
+- -m provides folder and file information in MB
+- k displays information in KB.
+- -h informs the last modification date of the displayed folders and files.
+
+### 15. head
+
+The head command allows you to view the first ten lines of a text. Adding an option lets you change the number of lines shown. The head command is also used to output piped data to the CLI.
+
+Here’s the general syntax:
+
+`head [option] [file]`
+
+For instance, you want to view the first ten lines of note.txt, located in the current directory:
+
+`head note.txt`
+
+Below are some options you can add:
+
+- -n or –lines prints the first customized number of lines. For example, enter head -n 5 filename.txt to show the first five lines of filename.txt.
+- -c or –bytes prints the first customized number of bytes of each file.
+- -q or –quiet will not print headers specifying the file name.
+
+### 16. tail
+
+The tail command displays the last ten lines of a file. It allows users to check whether a file has new data or to read error messages.
+
+Here’s the general format:
+
+`tail [option] [file]`
+
+For example, you want to show the last ten lines of the colors.txt file:
+
+`tail -n colors.txt`
